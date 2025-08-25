@@ -19,6 +19,8 @@ class VectorStoreRetriever:
         return self.vector_store.search(query_vector, k)
 
 
+
+
 retriever = VectorStoreRetriever()
 
 # docs = [{'text': "you are shit", "id": 3}, {'text': "There is something wrong with you", "id": 4}]
